@@ -1,0 +1,48 @@
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\iau\Desktop\OrganizationWeb\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\bin\Debug\EntityFramework.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\bin\Debug\EntityFramework.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+F:\Proje Son Hali 29.07.2019\ajax çalışan\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\EntityFramework.dll
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\EntityFramework.xml
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\EntityFramework.dll
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\EntityFramework.xml
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\31.07.2019 PROJE\OrganizationWEB\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

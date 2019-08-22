@@ -1,0 +1,348 @@
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\OrganizationWeb.dll.config
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\OrganizationWeb.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\OrganizationWeb.pdb
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\csc.exe
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\csc.exe.config
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\csc.rsp
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\csi.exe
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\csi.exe.config
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\csi.rsp
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.AppContext.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Console.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\vbc.exe
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\vbc.exe.config
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\vbc.rsp
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Antlr3.Runtime.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\DataAccessLayer.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\EntityFramework.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Newtonsoft.Json.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.Helpers.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.Mvc.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.Optimization.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.Razor.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.WebPages.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\WebGrease.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\DataAccessLayer.pdb
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\DataAccessLayer.dll.config
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\EntityFramework.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.Helpers.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.Mvc.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.Optimization.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.Razor.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.WebPages.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Newtonsoft.Json.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Antlr3.Runtime.pdb
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\obj\Debug\OrganizationWeb.csprojAssemblyReference.cache
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\obj\Debug\OrganizationWeb.csproj.CoreCompileInputs.cache
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\obj\Debug\OrganizationWeb.csproj.CopyComplete
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\obj\Debug\OrganizationWeb.dll
+C:\Users\iau\Desktop\OrganizationWeb\OrganizationWeb\obj\Debug\OrganizationWeb.pdb
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\OrganizationWeb.dll.config
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\OrganizationWeb.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\OrganizationWeb.pdb
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\csc.exe
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\csc.exe.config
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\csc.rsp
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\csi.exe
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\csi.exe.config
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\csi.rsp
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.AppContext.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Console.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.IO.Compression.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.IO.Pipes.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Security.AccessControl.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Security.Claims.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Security.Principal.Windows.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.ValueTuple.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Xml.XPath.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\vbc.exe
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\vbc.exe.config
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\vbc.rsp
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\VBCSCompiler.exe
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Antlr3.Runtime.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\DataAccessLayer.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\EntityFramework.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\EntityFramework.SqlServer.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Newtonsoft.Json.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Diagnostics.DiagnosticSource.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.Helpers.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.Mvc.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.Optimization.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.Razor.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.WebPages.Deployment.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.WebPages.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.WebPages.Razor.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\WebGrease.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\DataAccessLayer.pdb
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\DataAccessLayer.dll.config
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\EntityFramework.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\EntityFramework.SqlServer.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.Helpers.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.Mvc.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.Optimization.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.Razor.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.WebPages.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.WebPages.Deployment.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Web.WebPages.Razor.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Newtonsoft.Json.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Antlr3.Runtime.pdb
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\System.Diagnostics.DiagnosticSource.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\obj\Debug\OrganizationWeb.csprojAssemblyReference.cache
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\obj\Debug\OrganizationWeb.csproj.CoreCompileInputs.cache
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\obj\Debug\OrganizationWeb.csproj.CopyComplete
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\obj\Debug\OrganizationWeb.dll
+F:\Proje Son Hali 29.07.2019\ajax çalışan\OrganizationWeb\obj\Debug\OrganizationWeb.pdb
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\OrganizationWeb.dll.config
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\OrganizationWeb.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\OrganizationWeb.pdb
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csc.exe
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csc.exe.config
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csc.rsp
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csi.exe
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csi.exe.config
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csi.rsp
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.AppContext.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Console.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.Compression.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.Pipes.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.AccessControl.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Claims.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Principal.Windows.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.ValueTuple.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Xml.XPath.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\vbc.exe
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\vbc.exe.config
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\vbc.rsp
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\VBCSCompiler.exe
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Antlr3.Runtime.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\DataAccessLayer.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\EntityFramework.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\EntityFramework.SqlServer.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Newtonsoft.Json.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Diagnostics.DiagnosticSource.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Helpers.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Mvc.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Optimization.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Razor.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.Deployment.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.Razor.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\WebGrease.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\DataAccessLayer.pdb
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\DataAccessLayer.dll.config
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\EntityFramework.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\EntityFramework.SqlServer.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Helpers.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Mvc.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Optimization.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Razor.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.Deployment.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.Razor.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Newtonsoft.Json.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Antlr3.Runtime.pdb
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Diagnostics.DiagnosticSource.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.csprojAssemblyReference.cache
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.csproj.CoreCompileInputs.cache
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.csproj.CopyComplete
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.dll
+F:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.pdb
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\OrganizationWeb.dll.config
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\OrganizationWeb.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\OrganizationWeb.pdb
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csc.exe
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csc.exe.config
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csc.rsp
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csi.exe
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csi.exe.config
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\csi.rsp
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.AppContext.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Console.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.Compression.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.IO.Pipes.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.AccessControl.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Claims.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Security.Principal.Windows.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.ValueTuple.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Xml.XPath.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\vbc.exe
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\vbc.exe.config
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\vbc.rsp
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\VBCSCompiler.exe
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Antlr3.Runtime.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\DataAccessLayer.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\EntityFramework.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\EntityFramework.SqlServer.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Newtonsoft.Json.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Diagnostics.DiagnosticSource.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Helpers.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Mvc.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Optimization.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Razor.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.Deployment.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.Razor.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\WebGrease.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\DataAccessLayer.pdb
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\DataAccessLayer.dll.config
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\EntityFramework.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\EntityFramework.SqlServer.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Helpers.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Mvc.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Optimization.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.Razor.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.Deployment.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Web.WebPages.Razor.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Newtonsoft.Json.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Antlr3.Runtime.pdb
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\System.Diagnostics.DiagnosticSource.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.csprojAssemblyReference.cache
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.csproj.CoreCompileInputs.cache
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.csproj.CopyComplete
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.dll
+E:\31.07.2019 PROJE\OrganizationWEB\OrganizationWeb\obj\Debug\OrganizationWeb.pdb

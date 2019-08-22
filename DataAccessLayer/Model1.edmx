@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="OrganizationDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OrganizationId" Type="int" Nullable="false" />
+          <Property Name="ParticipantId" Type="int" Nullable="false" />
+          <Property Name="Comment" Type="nvarchar(max)" />
+          <Property Name="CommentDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Image">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ImageUrl" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Organization">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="Date" Type="datetime" />
+          <Property Name="Address" Type="nvarchar" MaxLength="200" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="ImageId" Type="int" />
+        </EntityType>
+        <EntityType Name="OrganizationComment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OrganizationId" Type="int" />
+          <Property Name="CommentId" Type="int" />
+        </EntityType>
+        <EntityType Name="OrganizationImage">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="OrganizationId" Type="int" Nullable="false" />
+          <Property Name="ImageId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrganizationParticipant">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ParticipantId" Type="int" />
+          <Property Name="OrganizationId" Type="int" />
+        </EntityType>
+        <EntityType Name="Participant">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_Comment_Organization">
+          <End Role="Organization" Type="Self.Organization" Multiplicity="1" />
+          <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_Participant">
+          <End Role="Participant" Type="Self.Participant" Multiplicity="1" />
+          <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participant">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organization_Image">
+          <End Role="Image" Type="Self.Image" Multiplicity="0..1" />
+          <End Role="Organization" Type="Self.Organization" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Image">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Organization">
+              <PropertyRef Name="ImageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationComment_Comment">
+          <End Role="Comment" Type="Self.Comment" Multiplicity="0..1" />
+          <End Role="OrganizationComment" Type="Self.OrganizationComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Comment">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationComment">
+              <PropertyRef Name="CommentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationComment_Organization">
+          <End Role="Organization" Type="Self.Organization" Multiplicity="0..1" />
+          <End Role="OrganizationComment" Type="Self.OrganizationComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationComment">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationImage_Image">
+          <End Role="Image" Type="Self.Image" Multiplicity="1" />
+          <End Role="OrganizationImage" Type="Self.OrganizationImage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Image">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationImage">
+              <PropertyRef Name="ImageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationImage_Organization">
+          <End Role="Organization" Type="Self.Organization" Multiplicity="1" />
+          <End Role="OrganizationImage" Type="Self.OrganizationImage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationImage">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationParticipant_Organization">
+          <End Role="Organization" Type="Self.Organization" Multiplicity="0..1" />
+          <End Role="OrganizationParticipant" Type="Self.OrganizationParticipant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationParticipant">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationParticipant_Participant">
+          <End Role="Participant" Type="Self.Participant" Multiplicity="0..1" />
+          <End Role="OrganizationParticipant" Type="Self.OrganizationParticipant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participant">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationParticipant">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="OrganizationDbModelStoreContainer">
+          <EntitySet Name="Comment" EntityType="Self.Comment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Image" EntityType="Self.Image" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Organization" EntityType="Self.Organization" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrganizationComment" EntityType="Self.OrganizationComment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrganizationImage" EntityType="Self.OrganizationImage" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrganizationParticipant" EntityType="Self.OrganizationParticipant" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Participant" EntityType="Self.Participant" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Comment_Organization" Association="Self.FK_Comment_Organization">
+            <End Role="Organization" EntitySet="Organization" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_Participant" Association="Self.FK_Comment_Participant">
+            <End Role="Participant" EntitySet="Participant" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organization_Image" Association="Self.FK_Organization_Image">
+            <End Role="Image" EntitySet="Image" />
+            <End Role="Organization" EntitySet="Organization" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationComment_Comment" Association="Self.FK_OrganizationComment_Comment">
+            <End Role="Comment" EntitySet="Comment" />
+            <End Role="OrganizationComment" EntitySet="OrganizationComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationComment_Organization" Association="Self.FK_OrganizationComment_Organization">
+            <End Role="Organization" EntitySet="Organization" />
+            <End Role="OrganizationComment" EntitySet="OrganizationComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationImage_Image" Association="Self.FK_OrganizationImage_Image">
+            <End Role="Image" EntitySet="Image" />
+            <End Role="OrganizationImage" EntitySet="OrganizationImage" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationImage_Organization" Association="Self.FK_OrganizationImage_Organization">
+            <End Role="Organization" EntitySet="Organization" />
+            <End Role="OrganizationImage" EntitySet="OrganizationImage" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationParticipant_Organization" Association="Self.FK_OrganizationParticipant_Organization">
+            <End Role="Organization" EntitySet="Organization" />
+            <End Role="OrganizationParticipant" EntitySet="OrganizationParticipant" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationParticipant_Participant" Association="Self.FK_OrganizationParticipant_Participant">
+            <End Role="Participant" EntitySet="Participant" />
+            <End Role="OrganizationParticipant" EntitySet="OrganizationParticipant" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="OrganizationDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrganizationId" Type="Int32" Nullable="false" />
+          <Property Name="ParticipantId" Type="Int32" Nullable="false" />
+          <Property Name="Comment1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CommentDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Organization" Relationship="Self.FK_Comment_Organization" FromRole="Comment" ToRole="Organization" />
+          <NavigationProperty Name="Participant" Relationship="Self.FK_Comment_Participant" FromRole="Comment" ToRole="Participant" />
+          <NavigationProperty Name="OrganizationComment" Relationship="Self.FK_OrganizationComment_Comment" FromRole="Comment" ToRole="OrganizationComment" />
+        </EntityType>
+        <EntityType Name="Image">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ImageUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Organization" Relationship="Self.FK_Organization_Image" FromRole="Image" ToRole="Organization" />
+          <NavigationProperty Name="OrganizationImage" Relationship="Self.FK_OrganizationImage_Image" FromRole="Image" ToRole="OrganizationImage" />
+        </EntityType>
+        <EntityType Name="Organization">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Date" Type="DateTime" Precision="3" />
+          <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ImageId" Type="Int32" />
+          <NavigationProperty Name="Comment" Relationship="Self.FK_Comment_Organization" FromRole="Organization" ToRole="Comment" />
+          <NavigationProperty Name="Image" Relationship="Self.FK_Organization_Image" FromRole="Organization" ToRole="Image" />
+          <NavigationProperty Name="OrganizationComment" Relationship="Self.FK_OrganizationComment_Organization" FromRole="Organization" ToRole="OrganizationComment" />
+          <NavigationProperty Name="OrganizationImage" Relationship="Self.FK_OrganizationImage_Organization" FromRole="Organization" ToRole="OrganizationImage" />
+          <NavigationProperty Name="OrganizationParticipant" Relationship="Self.FK_OrganizationParticipant_Organization" FromRole="Organization" ToRole="OrganizationParticipant" />
+        </EntityType>
+        <EntityType Name="OrganizationComment">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrganizationId" Type="Int32" />
+          <Property Name="CommentId" Type="Int32" />
+          <NavigationProperty Name="Comment" Relationship="Self.FK_OrganizationComment_Comment" FromRole="OrganizationComment" ToRole="Comment" />
+          <NavigationProperty Name="Organization" Relationship="Self.FK_OrganizationComment_Organization" FromRole="OrganizationComment" ToRole="Organization" />
+        </EntityType>
+        <EntityType Name="OrganizationImage">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrganizationId" Type="Int32" Nullable="false" />
+          <Property Name="ImageId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Image" Relationship="Self.FK_OrganizationImage_Image" FromRole="OrganizationImage" ToRole="Image" />
+          <NavigationProperty Name="Organization" Relationship="Self.FK_OrganizationImage_Organization" FromRole="OrganizationImage" ToRole="Organization" />
+        </EntityType>
+        <EntityType Name="OrganizationParticipant">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ParticipantId" Type="Int32" />
+          <Property Name="OrganizationId" Type="Int32" />
+          <NavigationProperty Name="Organization" Relationship="Self.FK_OrganizationParticipant_Organization" FromRole="OrganizationParticipant" ToRole="Organization" />
+          <NavigationProperty Name="Participant" Relationship="Self.FK_OrganizationParticipant_Participant" FromRole="OrganizationParticipant" ToRole="Participant" />
+        </EntityType>
+        <EntityType Name="Participant">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Comment" Relationship="Self.FK_Comment_Participant" FromRole="Participant" ToRole="Comment" />
+          <NavigationProperty Name="OrganizationParticipant" Relationship="Self.FK_OrganizationParticipant_Participant" FromRole="Participant" ToRole="OrganizationParticipant" />
+        </EntityType>
+        <Association Name="FK_Comment_Organization">
+          <End Role="Organization" Type="Self.Organization" Multiplicity="1" />
+          <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_Participant">
+          <End Role="Participant" Type="Self.Participant" Multiplicity="1" />
+          <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participant">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationComment_Comment">
+          <End Role="Comment" Type="Self.Comment" Multiplicity="0..1" />
+          <End Role="OrganizationComment" Type="Self.OrganizationComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Comment">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationComment">
+              <PropertyRef Name="CommentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Organization_Image">
+          <End Role="Image" Type="Self.Image" Multiplicity="0..1" />
+          <End Role="Organization" Type="Self.Organization" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Image">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Organization">
+              <PropertyRef Name="ImageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationImage_Image">
+          <End Role="Image" Type="Self.Image" Multiplicity="1" />
+          <End Role="OrganizationImage" Type="Self.OrganizationImage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Image">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationImage">
+              <PropertyRef Name="ImageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationComment_Organization">
+          <End Role="Organization" Type="Self.Organization" Multiplicity="0..1" />
+          <End Role="OrganizationComment" Type="Self.OrganizationComment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationComment">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationImage_Organization">
+          <End Role="Organization" Type="Self.Organization" Multiplicity="1" />
+          <End Role="OrganizationImage" Type="Self.OrganizationImage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationImage">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationParticipant_Organization">
+          <End Role="Organization" Type="Self.Organization" Multiplicity="0..1" />
+          <End Role="OrganizationParticipant" Type="Self.OrganizationParticipant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organization">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationParticipant">
+              <PropertyRef Name="OrganizationId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrganizationParticipant_Participant">
+          <End Role="Participant" Type="Self.Participant" Multiplicity="0..1" />
+          <End Role="OrganizationParticipant" Type="Self.OrganizationParticipant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participant">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="OrganizationParticipant">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="OrganizationDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Comment" EntityType="Self.Comment" />
+          <EntitySet Name="Image" EntityType="Self.Image" />
+          <EntitySet Name="Organization" EntityType="Self.Organization" />
+          <EntitySet Name="OrganizationComment" EntityType="Self.OrganizationComment" />
+          <EntitySet Name="OrganizationImage" EntityType="Self.OrganizationImage" />
+          <EntitySet Name="OrganizationParticipant" EntityType="Self.OrganizationParticipant" />
+          <EntitySet Name="Participant" EntityType="Self.Participant" />
+          <AssociationSet Name="FK_Comment_Organization" Association="Self.FK_Comment_Organization">
+            <End Role="Organization" EntitySet="Organization" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_Participant" Association="Self.FK_Comment_Participant">
+            <End Role="Participant" EntitySet="Participant" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationComment_Comment" Association="Self.FK_OrganizationComment_Comment">
+            <End Role="Comment" EntitySet="Comment" />
+            <End Role="OrganizationComment" EntitySet="OrganizationComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Organization_Image" Association="Self.FK_Organization_Image">
+            <End Role="Image" EntitySet="Image" />
+            <End Role="Organization" EntitySet="Organization" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationImage_Image" Association="Self.FK_OrganizationImage_Image">
+            <End Role="Image" EntitySet="Image" />
+            <End Role="OrganizationImage" EntitySet="OrganizationImage" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationComment_Organization" Association="Self.FK_OrganizationComment_Organization">
+            <End Role="Organization" EntitySet="Organization" />
+            <End Role="OrganizationComment" EntitySet="OrganizationComment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationImage_Organization" Association="Self.FK_OrganizationImage_Organization">
+            <End Role="Organization" EntitySet="Organization" />
+            <End Role="OrganizationImage" EntitySet="OrganizationImage" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationParticipant_Organization" Association="Self.FK_OrganizationParticipant_Organization">
+            <End Role="Organization" EntitySet="Organization" />
+            <End Role="OrganizationParticipant" EntitySet="OrganizationParticipant" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrganizationParticipant_Participant" Association="Self.FK_OrganizationParticipant_Participant">
+            <End Role="Participant" EntitySet="Participant" />
+            <End Role="OrganizationParticipant" EntitySet="OrganizationParticipant" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="OrganizationDbModelStoreContainer" CdmEntityContainer="OrganizationDbEntities">
+          <EntitySetMapping Name="Comment">
+            <EntityTypeMapping TypeName="OrganizationDbModel.Comment">
+              <MappingFragment StoreEntitySet="Comment">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="OrganizationId" ColumnName="OrganizationId" />
+                <ScalarProperty Name="ParticipantId" ColumnName="ParticipantId" />
+                <ScalarProperty Name="Comment1" ColumnName="Comment" />
+                <ScalarProperty Name="CommentDate" ColumnName="CommentDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Image">
+            <EntityTypeMapping TypeName="OrganizationDbModel.Image">
+              <MappingFragment StoreEntitySet="Image">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Organization">
+            <EntityTypeMapping TypeName="OrganizationDbModel.Organization">
+              <MappingFragment StoreEntitySet="Organization">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrganizationComment">
+            <EntityTypeMapping TypeName="OrganizationDbModel.OrganizationComment">
+              <MappingFragment StoreEntitySet="OrganizationComment">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="OrganizationId" ColumnName="OrganizationId" />
+                <ScalarProperty Name="CommentId" ColumnName="CommentId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrganizationImage">
+            <EntityTypeMapping TypeName="OrganizationDbModel.OrganizationImage">
+              <MappingFragment StoreEntitySet="OrganizationImage">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="OrganizationId" ColumnName="OrganizationId" />
+                <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrganizationParticipant">
+            <EntityTypeMapping TypeName="OrganizationDbModel.OrganizationParticipant">
+              <MappingFragment StoreEntitySet="OrganizationParticipant">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ParticipantId" ColumnName="ParticipantId" />
+                <ScalarProperty Name="OrganizationId" ColumnName="OrganizationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Participant">
+            <EntityTypeMapping TypeName="OrganizationDbModel.Participant">
+              <MappingFragment StoreEntitySet="Participant">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

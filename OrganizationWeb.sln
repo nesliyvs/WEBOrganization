@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrganizationWeb", "OrganizationWeb\OrganizationWeb.csproj", "{413673A6-154A-454C-82B1-8DFFC2E0FB09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{215CF956-578F-4E88-BE46-5374A1E0EB64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413673A6-154A-454C-82B1-8DFFC2E0FB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413673A6-154A-454C-82B1-8DFFC2E0FB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413673A6-154A-454C-82B1-8DFFC2E0FB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413673A6-154A-454C-82B1-8DFFC2E0FB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215CF956-578F-4E88-BE46-5374A1E0EB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215CF956-578F-4E88-BE46-5374A1E0EB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215CF956-578F-4E88-BE46-5374A1E0EB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215CF956-578F-4E88-BE46-5374A1E0EB64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9030A48D-6A60-4E3C-B647-EE751DF3E0E0}
+	EndGlobalSection
+EndGlobal
